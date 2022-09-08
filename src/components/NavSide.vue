@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div id="nav">
         <nav>
             <router-link to="/" id="logo-url">
@@ -47,4 +47,4 @@ export default {
         color: #fff;
     }
 
-</style>
+</style> -->

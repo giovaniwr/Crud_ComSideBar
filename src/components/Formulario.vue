@@ -5,19 +5,35 @@
             <form id="formulario-form" @submit="createCadastro">
                 <div class="input-container">
                     <label for="nome">Nome:</label>
-                    <input type="text" id="nome" v-model="nome" placeholder="Digite o seu nome"/>
+                    <input type="text" 
+                    id="nome" 
+                    v-model="nome"
+                    required
+                    placeholder="Digite o seu nome"/>
                 </div>
                 <div class="input-container">
                     <label for="cpf">CPF:</label>
-                    <input type="text" id="cpf" v-model="cpf" placeholder="Digite o seu CPF"/>
+                    <input type="text" 
+                    id="cpf" 
+                    v-model="cpf"
+                    required 
+                    placeholder="Digite o seu CPF"/>
                 </div>
                 <div class="input-container">
                     <label for="telefone">Telefone:</label>
-                    <input type="text" id="telefone" v-model="telefone" placeholder="Digite o seu Telefone"/>
+                    <input type="text" 
+                    id="telefone" 
+                    v-model="telefone"
+                    required
+                    placeholder="Digite o seu Telefone"/>
                 </div>
                 <div class="input-container">
                     <label for="nome">Email:</label>
-                    <input type="text" id="email" v-model="email" placeholder="Digite o seu Email"/>
+                    <input type="text" 
+                    id="email"
+                    v-model="email"
+                    required
+                    placeholder="Digite o seu Email"/>
                 </div>
                 <div class="input-container">
                     <input type="submit" class="submit-btn" value="Salvar"/>

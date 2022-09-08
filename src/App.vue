@@ -1,15 +1,17 @@
 <template>
-  <NavSide :logo="logo_src" alt_src="app_name" />
+  <Sidebar />
+  <!-- <NavSide :logo="logo_src" alt_src="app_name" /> -->
   <router-view />
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
-
 <script>
+import Sidebar from './components/sidebar/Sidebar.vue';   
 import NavSide from './components/NavSide.vue';
 import Footer from './components/Footer.vue';
   export default{
     components: {
+      Sidebar,
       NavSide,
       Footer
     },

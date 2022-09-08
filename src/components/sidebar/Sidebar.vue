@@ -1,18 +1,17 @@
 <template>
       <div class="sidebar" :style="{ width: sidebarWidth }">
         <h1>
-          <span v-if="collapsed">
-            <div>V</div>
-            <div>S</div>
+          <span v-if="collapsed" class="init">
+            <div>a</div>
+            <div>b</div>
           </span>
-          <span v-else>Vue Sidebar</span>
+          <span v-else>
+            <img src="../../../public/img/logo.png"  id="logo">
+          </span>
         </h1>
     
         <SidebarLink to="/" icon="fas fa-home">Home</SidebarLink>
-        <SidebarLink to="/dashboard" icon="fas fa-columns">Dashboard</SidebarLink>
-        <SidebarLink to="/analytics" icon="fas fa-chart-bar">Analytics</SidebarLink>
-        <SidebarLink to="/friends" icon="fas fa-users">Friends</SidebarLink>
-        <SidebarLink to="/image" icon="fas fa-image">Images</SidebarLink>
+        <SidebarLink to="/cadastros" icon="fas fa-columns">Cadastros</SidebarLink>
     
         <span
           class="collapse-icon"
@@ -37,15 +36,14 @@
     
 <style>
     :root {
-      --sidebar-bg-color: #2f855a;
-      --sidebar-item-hover: #38a169;
-      --sidebar-item-active: #276749;
+      --sidebar-bg-color: #222;
+      --sidebar-item-hover: #D9AF3D;
+      --sidebar-item-active: #FCBA03;
     }
 </style>
     
 <style scoped>
     .sidebar {
-      color: white;
       background-color: var(--sidebar-bg-color);
       float: left;
       position: fixed;
@@ -58,6 +56,9 @@
       display: flex;
       flex-direction: column;
     }
+    .sidebar :hover{
+        color: white;
+    }
     .sidebar h1 {
       height: 2.5em;
     }
@@ -65,11 +66,20 @@
       position: absolute;
       bottom: 0;
       padding: 0.75em;
-      color: rgba(255, 255, 255, 0.7);
+      color: #FCBA03;
       transition: 0.2s linear;
     }
     .rotate-180 {
       transform: rotate(180deg);
       transition: 0.2s linear;
     }
+    .init {
+        color: #FFF;
+    }
+    
+    #logo {
+        width: 80px;
+        height: 80px;
+    }
+    
 </style>
