@@ -1,0 +1,46 @@
+{
+  "cadastros": [
+    {
+      "nome": "qweqwe",
+      "cpf": "qweqwe",
+      "telefone": "qweqwe",
+      "email": "qweqwe",
+      "id": 1
+    },
+    {
+      "nome": "wqeqweq",
+      "cpf": "weqwe",
+      "telefone": "qweqw",
+      "email": "eqweqwe",
+      "id": 4
+    },
+    {
+      "nome": "qweqwe",
+      "cpf": "qweqweqw",
+      "telefone": "eqweqweqw",
+      "email": "eqweq",
+      "id": 5
+    },
+    {
+      "nome": "eqweqw",
+      "cpf": "eqweq",
+      "telefone": "weqw",
+      "email": "eqwe",
+      "id": 6
+    },
+    {
+      "nome": "qweqwe",
+      "cpf": "qweqw",
+      "telefone": "eqwe",
+      "email": "eqwe",
+      "id": 7
+    },
+    {
+      "nome": "giovani",
+      "cpf": "dsfsdf",
+      "telefone": "55151",
+      "email": "151515",
+      "id": 8
+    }
+  ]
+}
